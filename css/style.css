@@ -34,8 +34,7 @@ h2 {
 /* header */
 .logo {
   background-color: black;
-  padding-bottom: 20px;
-  padding-top: 5px;
+  padding-block: 20px;
 }
 .logo > img {
   width: 150px;
@@ -110,8 +109,8 @@ body button {
 footer {
   background-color: #25a2c3;
   color: white;
-  padding-top: 25px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 footer h2 {
   font-size: 30px;
