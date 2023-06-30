@@ -43,10 +43,10 @@ h2 {
 }
 .header {
   background-image: url(../images/banner.jpg);
-  background-position: center;
-  background-size: 100%;
+  background-position: top;
+  background-size: cover;
   text-align: center;
-  padding-block: 100px;
+  padding-block: 130px;
 }
 h1 {
   font-size: 30px;
@@ -71,8 +71,16 @@ body button {
 }
 .notebook {
   border-radius: 50%;
-  width: 200px;
-  padding-top: 10px;
+  width: 400px;
+  padding-right: 30px;
+}
+.main > div {
+  margin-block: 100px;
+  padding-inline: 50px;
+}
+.main > div > div {
+  text-align: left;
+  display: inline-block;
 }
 .orange {
   background-color: #e22d0e;
