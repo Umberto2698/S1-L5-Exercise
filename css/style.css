@@ -74,8 +74,9 @@ body button {
 .orange {
   background-color: #e22d0e;
   color: white;
-  padding-block: 20px;
-  margin-block: 40px;
+  padding-inline: 20px;
+  padding-block: 40px;
+  margin-block: 60px;
 }
 .orange h2 {
   font-size: 30px;
