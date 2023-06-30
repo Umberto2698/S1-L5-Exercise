@@ -35,6 +35,8 @@ h2 {
 .logo {
   background-color: black;
   padding-block: 20px;
+  padding-left: 30px;
+  text-align: start;
 }
 .logo > img {
   width: 150px;
@@ -42,8 +44,9 @@ h2 {
 .header {
   background-image: url(../images/banner.jpg);
   background-position: center;
-  background-size: 450px;
-  padding: 40px;
+  background-size: 100%;
+  text-align: center;
+  padding-block: 100px;
 }
 h1 {
   font-size: 30px;
