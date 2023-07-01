@@ -75,7 +75,7 @@ body button {
   border-radius: 50%;
   width: 450px;
   padding-right: 80px;
-  text-align: center;
+  object-fit: cover;
 }
 .main > div:first-child + div:nth-child(2) {
   margin-block: 100px;
@@ -121,6 +121,7 @@ body button {
 .foto {
   width: 100%;
   height: 200px;
+  object-fit: cover;
 }
 /*footer*/
 footer {
